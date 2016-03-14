@@ -59,3 +59,16 @@ Note: There are two task types:
 (An '*' at the beginning of a comment will log it to your working task)
 
 *Note: If you are in a direct message @wf, it is not necessary to include the @wf at the start of the line.*
+
+### Quick task creation
+---
+
+If you are NOT in a direct message with the bot, you must preceed these commands with @wf
+*Note: Prior to using this functionality, be sure to rerun @wf set user email@domain.com and then run @wf set default project {referenceId} to set the project that will contain tasks created from the command line.*
+
+**To create a task and start the timer, issue the following command**
+work create {task description}
+
+This will create a new task on the current iteration and begin logging time. "work" is an alias for the "working" command, so the following is valid as well. working create {task description}
+
+
